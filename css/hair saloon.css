@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
+
 html{
     font-size: 10px;
 }
@@ -15,7 +16,7 @@ header{
 .inner1{
     max-width: 1000px;
     margin: 0 auto;
-    padding: 3% 0;
+    
 
 }
 nav{
@@ -27,6 +28,8 @@ nav{
     width: 30%;
     height: 120px;
     background-color: #1e233a;
+    position: relative;
+    top: 50px;
    
     
 }
@@ -37,16 +40,25 @@ nav{
     margin-top: 3rem;
 }
 ul{
+
+    margin: 0;
+    padding: 0;
     display: flex;
-    align-items: center;
-    margin-right: 10rem;
+    flex-wrap: wrap;
+  
+
+   
     
 }
 li{
     list-style: none;
-    margin-left: 2rem;
+  background-color: #1e233a;
+    margin-left: 1rem;
+    margin-top: 80px;
+    padding: 0.9rem 1rem;
     background-color: #1e233a;
-    padding: 2%;
+   
+   
    
 }
 nav a{
@@ -248,7 +260,7 @@ footer p{
 
 .social{
    
-   width: 150px;
+   width: 15%;
    height: 50px;
    background-color: #387a82;
    margin-top: 3rem;
@@ -273,11 +285,51 @@ footer p{
         
     }
 
+    .rightfirst{
+     
+        height: auto;
+       
+    
+    }
     .rightsecond{
        
         height: auto;
         
     }
+
+    .four-parts section h3{
+
+        text-align: center;
+    
+    }
+
+    .four-parts section p{
+        
+        margin-left: 1rem;
+        margin-right: 1rem;
+    
+    }
+
+    .logo{
+        width: 20%;
+       
+       
+        
+    }
+    .logo h1{
+       
+        font-size: 2rem;
+        margin-top: 4rem;
+        
+    }
+
+    .rightbox{
+        width: 100%;
+        margin-top: 2rem;
+       
+    }
+
+    
     
 
 }
@@ -314,7 +366,12 @@ footer p{
     .leftbox{
       
         height: auto;
+        width: 100%;
+        padding: 0;
+       
     }
+
+   
    
     
 }
